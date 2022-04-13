@@ -1,0 +1,24 @@
+import matplotlib.pyplot as plt
+import numpy
+import torch
+import pandas as pd
+y_pred_new=torch.load('y_pred.pt')
+y_true_new=torch.load('y_true.pt')
+y_pred_new=y_pred_new[-1,:,:]
+y_true_new=y_true_new[-1,:,:]
+y_pred_new_df=pd.DataFrame(y_pred_new.numpy())
+y_true_new_df=pd.DataFrame(y_true_new.numpy())
+fig=plt.figure()
+fig.set_figwidth(10)
+fig.set_figheight(5)
+y_truedf,=plt.plot(y_true_new_df.index,y_true_new_df[0], label="Ground truth")
+y_preddf,=plt.plot(y_pred_new_df.index,y_pred_new_df[0], label='Forecasted',linestyle='dashed')
+plt.ylim(ymax=5,ymin=0)
+plt.xlim(xmax=400,xmin=0)
+plt.legend(handles=[y_truedf,y_preddf],loc=3)
+plt.title('Forecasted vs. Ground Truth Values of Discharge_capacity')
+plt.xlabel('Time (s)')
+plt.ylabel('Discharge_capacity')
+plt.savefig('Discharge_capacity.pdf')
+plt.ylim((0,5))
+plt.show()
