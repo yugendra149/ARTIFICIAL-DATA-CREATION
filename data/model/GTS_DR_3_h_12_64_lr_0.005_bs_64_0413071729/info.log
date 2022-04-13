@@ -1,0 +1,205 @@
+2022-04-13 07:17:29,056 - model.pytorch.supervisor - INFO - Log directory: data/model\GTS_DR_3_h_12_64_lr_0.005_bs_64_0413071729/
+2022-04-13 07:17:29,527 - model.pytorch.supervisor - INFO - Model created
+2022-04-13 07:17:29,527 - model.pytorch.supervisor - INFO - Start training ...
+2022-04-13 07:17:29,528 - model.pytorch.supervisor - INFO - num_batches:45
+2022-04-13 07:17:29,586 - model.pytorch.supervisor - INFO - Total trainable parameters 4723091
+2022-04-13 07:17:34,383 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:17:34,385 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:17:34,599 - model.pytorch.supervisor - INFO - Epoch [0/50] (45) train_mae: 0.7509, val_mae: 0.8135
+2022-04-13 07:17:39,416 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:17:39,416 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:17:39,622 - model.pytorch.supervisor - INFO - Epoch [1/50] (90) train_mae: 0.5724, val_mae: 0.7590
+2022-04-13 07:17:44,521 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:17:44,522 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:17:44,745 - model.pytorch.supervisor - INFO - Epoch [2/50] (135) train_mae: 0.5612, val_mae: 0.7045
+2022-04-13 07:17:49,673 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:17:49,674 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:17:49,878 - model.pytorch.supervisor - INFO - Epoch [3/50] (180) train_mae: 0.5526, val_mae: 0.6883
+2022-04-13 07:17:54,775 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:17:54,776 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:17:54,978 - model.pytorch.supervisor - INFO - Epoch [4/50] (225) train_mae: 0.5492, val_mae: 0.6886
+2022-04-13 07:17:55,402 - model.pytorch.supervisor - INFO - Test: mae: 0.7037, mape: 67300.7239, rmse: 0.5031
+2022-04-13 07:17:55,402 - model.pytorch.supervisor - INFO - Horizon 15mins: mae: 0.1119, mape: 67694.7929, rmse: 0.3722
+2022-04-13 07:17:55,404 - model.pytorch.supervisor - INFO - Horizon 30mins: mae: 0.1922, mape: 67329.8577, rmse: 0.4986
+2022-04-13 07:17:55,408 - model.pytorch.supervisor - INFO - Horizon 60mins: mae: 0.3301, mape: 66931.9771, rmse: 0.6439
+2022-04-13 07:17:55,409 - model.pytorch.supervisor - INFO - Epoch [4/50] (225) train_mae: 0.5492, test_mae: 0.7037, lr: 0.005000, 4.9s, 5.1s
+2022-04-13 07:18:00,379 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:00,379 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:00,604 - model.pytorch.supervisor - INFO - Epoch [5/50] (270) train_mae: 0.5452, val_mae: 0.7226
+2022-04-13 07:18:05,552 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:05,552 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:05,770 - model.pytorch.supervisor - INFO - Epoch [6/50] (315) train_mae: 0.5450, val_mae: 0.7009
+2022-04-13 07:18:10,621 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:10,622 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:10,854 - model.pytorch.supervisor - INFO - Epoch [7/50] (360) train_mae: 0.5414, val_mae: 0.6804
+2022-04-13 07:18:15,897 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:15,897 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:16,122 - model.pytorch.supervisor - INFO - Epoch [8/50] (405) train_mae: 0.5388, val_mae: 0.7035
+2022-04-13 07:18:21,090 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:21,091 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:21,306 - model.pytorch.supervisor - INFO - Epoch [9/50] (450) train_mae: 0.5396, val_mae: 0.7060
+2022-04-13 07:18:21,723 - model.pytorch.supervisor - INFO - Test: mae: 0.7148, mape: 66244.8905, rmse: 0.4910
+2022-04-13 07:18:21,723 - model.pytorch.supervisor - INFO - Horizon 15mins: mae: 0.1140, mape: 66517.2612, rmse: 0.3547
+2022-04-13 07:18:21,725 - model.pytorch.supervisor - INFO - Horizon 30mins: mae: 0.2044, mape: 66414.2334, rmse: 0.4876
+2022-04-13 07:18:21,727 - model.pytorch.supervisor - INFO - Horizon 60mins: mae: 0.3547, mape: 65908.0205, rmse: 0.6328
+2022-04-13 07:18:21,728 - model.pytorch.supervisor - INFO - Epoch [9/50] (450) train_mae: 0.5396, test_mae: 0.7148, lr: 0.005000, 5.0s, 5.2s
+2022-04-13 07:18:26,625 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:26,626 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:26,861 - model.pytorch.supervisor - INFO - Epoch [10/50] (495) train_mae: 0.5392, val_mae: 0.6768
+2022-04-13 07:18:31,774 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:31,774 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:31,990 - model.pytorch.supervisor - INFO - Epoch [11/50] (540) train_mae: 0.5369, val_mae: 0.6683
+2022-04-13 07:18:36,954 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:36,954 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:37,180 - model.pytorch.supervisor - INFO - Epoch [12/50] (585) train_mae: 0.5374, val_mae: 0.7608
+2022-04-13 07:18:42,146 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:42,147 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:42,359 - model.pytorch.supervisor - INFO - Epoch [13/50] (630) train_mae: 0.5386, val_mae: 0.6847
+2022-04-13 07:18:47,424 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:47,424 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:47,660 - model.pytorch.supervisor - INFO - Epoch [14/50] (675) train_mae: 0.5369, val_mae: 0.6909
+2022-04-13 07:18:48,050 - model.pytorch.supervisor - INFO - Test: mae: 0.7021, mape: 67917.2039, rmse: 0.5023
+2022-04-13 07:18:48,050 - model.pytorch.supervisor - INFO - Horizon 15mins: mae: 0.1038, mape: 67638.5279, rmse: 0.3557
+2022-04-13 07:18:48,051 - model.pytorch.supervisor - INFO - Horizon 30mins: mae: 0.1906, mape: 68008.7980, rmse: 0.4949
+2022-04-13 07:18:48,054 - model.pytorch.supervisor - INFO - Horizon 60mins: mae: 0.3390, mape: 69360.0600, rmse: 0.6572
+2022-04-13 07:18:48,055 - model.pytorch.supervisor - INFO - Epoch [14/50] (675) train_mae: 0.5369, test_mae: 0.7021, lr: 0.005000, 5.1s, 5.3s
+2022-04-13 07:18:53,203 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:53,203 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:53,437 - model.pytorch.supervisor - INFO - Epoch [15/50] (720) train_mae: 0.5379, val_mae: 0.6731
+2022-04-13 07:18:58,440 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:18:58,440 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:18:58,656 - model.pytorch.supervisor - INFO - Epoch [16/50] (765) train_mae: 0.5347, val_mae: 0.6725
+2022-04-13 07:19:03,731 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:19:03,731 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:19:03,949 - model.pytorch.supervisor - INFO - Epoch [17/50] (810) train_mae: 0.5342, val_mae: 0.7078
+2022-04-13 07:19:09,252 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:19:09,254 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:19:09,487 - model.pytorch.supervisor - INFO - Epoch [18/50] (855) train_mae: 0.5378, val_mae: 0.6748
+2022-04-13 07:19:15,122 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:19:15,122 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:19:15,361 - model.pytorch.supervisor - INFO - Epoch [19/50] (900) train_mae: 0.5348, val_mae: 0.6633
+2022-04-13 07:19:15,806 - model.pytorch.supervisor - INFO - Test: mae: 0.6806, mape: 66876.9198, rmse: 0.4923
+2022-04-13 07:19:15,806 - model.pytorch.supervisor - INFO - Horizon 15mins: mae: 0.0937, mape: 68090.9582, rmse: 0.3566
+2022-04-13 07:19:15,807 - model.pytorch.supervisor - INFO - Horizon 30mins: mae: 0.1694, mape: 67173.0035, rmse: 0.4886
+2022-04-13 07:19:15,807 - model.pytorch.supervisor - INFO - Horizon 60mins: mae: 0.3019, mape: 66205.8631, rmse: 0.6355
+2022-04-13 07:19:15,808 - model.pytorch.supervisor - INFO - Epoch [19/50] (900) train_mae: 0.5348, test_mae: 0.6806, lr: 0.000050, 5.6s, 5.9s
+2022-04-13 07:19:21,175 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:19:21,176 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:19:21,437 - model.pytorch.supervisor - INFO - Epoch [20/50] (945) train_mae: 0.5336, val_mae: 0.6843
+2022-04-13 07:19:26,809 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:19:26,810 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:19:27,028 - model.pytorch.supervisor - INFO - Epoch [21/50] (990) train_mae: 0.5359, val_mae: 0.6735
+2022-04-13 07:19:32,960 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:19:32,961 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:19:33,207 - model.pytorch.supervisor - INFO - Epoch [22/50] (1035) train_mae: 0.5352, val_mae: 0.6583
+2022-04-13 07:19:38,428 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:19:38,428 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:19:38,666 - model.pytorch.supervisor - INFO - Epoch [23/50] (1080) train_mae: 0.5338, val_mae: 0.6582
+2022-04-13 07:19:44,021 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:19:44,022 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:19:44,274 - model.pytorch.supervisor - INFO - Epoch [24/50] (1125) train_mae: 0.5357, val_mae: 0.6671
+2022-04-13 07:19:44,669 - model.pytorch.supervisor - INFO - Test: mae: 0.6860, mape: 67402.0702, rmse: 0.4993
+2022-04-13 07:19:44,669 - model.pytorch.supervisor - INFO - Horizon 15mins: mae: 0.0922, mape: 67828.7898, rmse: 0.3558
+2022-04-13 07:19:44,670 - model.pytorch.supervisor - INFO - Horizon 30mins: mae: 0.1749, mape: 67666.1265, rmse: 0.4926
+2022-04-13 07:19:44,670 - model.pytorch.supervisor - INFO - Horizon 60mins: mae: 0.3158, mape: 67836.9601, rmse: 0.6517
+2022-04-13 07:19:44,670 - model.pytorch.supervisor - INFO - Epoch [24/50] (1125) train_mae: 0.5357, test_mae: 0.6860, lr: 0.000500, 5.4s, 5.6s
+2022-04-13 07:19:49,971 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:19:49,972 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:19:50,210 - model.pytorch.supervisor - INFO - Epoch [25/50] (1170) train_mae: 0.5331, val_mae: 0.6921
+2022-04-13 07:19:55,463 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:19:55,463 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:19:55,706 - model.pytorch.supervisor - INFO - Epoch [26/50] (1215) train_mae: 0.5371, val_mae: 0.6824
+2022-04-13 07:20:00,813 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:20:00,814 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:20:01,038 - model.pytorch.supervisor - INFO - Epoch [27/50] (1260) train_mae: 0.5354, val_mae: 0.6766
+2022-04-13 07:20:06,407 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:20:06,407 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:20:06,650 - model.pytorch.supervisor - INFO - Epoch [28/50] (1305) train_mae: 0.5352, val_mae: 0.6714
+2022-04-13 07:20:11,992 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:20:11,992 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:20:12,230 - model.pytorch.supervisor - INFO - Epoch [29/50] (1350) train_mae: 0.5340, val_mae: 0.6655
+2022-04-13 07:20:12,668 - model.pytorch.supervisor - INFO - Test: mae: 0.6826, mape: 66992.0302, rmse: 0.4967
+2022-04-13 07:20:12,669 - model.pytorch.supervisor - INFO - Horizon 15mins: mae: 0.0939, mape: 67362.7698, rmse: 0.3544
+2022-04-13 07:20:12,669 - model.pytorch.supervisor - INFO - Horizon 30mins: mae: 0.1712, mape: 67158.8040, rmse: 0.4894
+2022-04-13 07:20:12,669 - model.pytorch.supervisor - INFO - Horizon 60mins: mae: 0.3070, mape: 67150.8463, rmse: 0.6483
+2022-04-13 07:20:12,670 - model.pytorch.supervisor - INFO - Epoch [29/50] (1350) train_mae: 0.5340, test_mae: 0.6826, lr: 0.000005, 5.3s, 5.6s
+2022-04-13 07:20:17,998 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:20:17,998 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:20:18,221 - model.pytorch.supervisor - INFO - Epoch [30/50] (1395) train_mae: 0.5339, val_mae: 0.6767
+2022-04-13 07:20:23,514 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:20:23,514 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:20:23,715 - model.pytorch.supervisor - INFO - Epoch [31/50] (1440) train_mae: 0.5331, val_mae: 0.6742
+2022-04-13 07:20:28,989 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:20:28,989 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:20:29,237 - model.pytorch.supervisor - INFO - Epoch [32/50] (1485) train_mae: 0.5346, val_mae: 0.6599
+2022-04-13 07:20:34,660 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:20:34,660 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:20:34,865 - model.pytorch.supervisor - INFO - Epoch [33/50] (1530) train_mae: 0.5330, val_mae: 0.6596
+2022-04-13 07:20:40,191 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:20:40,191 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:20:40,419 - model.pytorch.supervisor - INFO - Epoch [34/50] (1575) train_mae: 0.5328, val_mae: 0.6849
+2022-04-13 07:20:40,857 - model.pytorch.supervisor - INFO - Test: mae: 0.6989, mape: 67600.9019, rmse: 0.5052
+2022-04-13 07:20:40,858 - model.pytorch.supervisor - INFO - Horizon 15mins: mae: 0.0976, mape: 67580.0154, rmse: 0.3571
+2022-04-13 07:20:40,859 - model.pytorch.supervisor - INFO - Horizon 30mins: mae: 0.1869, mape: 67730.8855, rmse: 0.4958
+2022-04-13 07:20:40,862 - model.pytorch.supervisor - INFO - Horizon 60mins: mae: 0.3407, mape: 68297.9807, rmse: 0.6642
+2022-04-13 07:20:40,862 - model.pytorch.supervisor - INFO - Epoch [34/50] (1575) train_mae: 0.5328, test_mae: 0.6989, lr: 0.000050, 5.3s, 5.6s
+2022-04-13 07:20:46,021 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:20:46,022 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:20:46,260 - model.pytorch.supervisor - INFO - Epoch [35/50] (1620) train_mae: 0.5354, val_mae: 0.6743
+2022-04-13 07:20:51,329 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:20:51,329 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:20:51,542 - model.pytorch.supervisor - INFO - Epoch [36/50] (1665) train_mae: 0.5350, val_mae: 0.6774
+2022-04-13 07:20:56,807 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:20:56,807 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:20:57,018 - model.pytorch.supervisor - INFO - Epoch [37/50] (1710) train_mae: 0.5350, val_mae: 0.6728
+2022-04-13 07:21:02,070 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:21:02,071 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:21:02,316 - model.pytorch.supervisor - INFO - Epoch [38/50] (1755) train_mae: 0.5338, val_mae: 0.6708
+2022-04-13 07:21:07,645 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:21:07,645 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:21:07,874 - model.pytorch.supervisor - INFO - Epoch [39/50] (1800) train_mae: 0.5327, val_mae: 0.6651
+2022-04-13 07:21:08,297 - model.pytorch.supervisor - INFO - Test: mae: 0.6824, mape: 66672.4676, rmse: 0.4982
+2022-04-13 07:21:08,298 - model.pytorch.supervisor - INFO - Horizon 15mins: mae: 0.0935, mape: 66926.3095, rmse: 0.3544
+2022-04-13 07:21:08,298 - model.pytorch.supervisor - INFO - Horizon 30mins: mae: 0.1706, mape: 66918.8243, rmse: 0.4897
+2022-04-13 07:21:08,298 - model.pytorch.supervisor - INFO - Horizon 60mins: mae: 0.3079, mape: 66551.7070, rmse: 0.6527
+2022-04-13 07:21:08,299 - model.pytorch.supervisor - INFO - Epoch [39/50] (1800) train_mae: 0.5327, test_mae: 0.6824, lr: 0.000001, 5.3s, 5.6s
+2022-04-13 07:21:13,496 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:21:13,497 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:21:13,731 - model.pytorch.supervisor - INFO - Epoch [40/50] (1845) train_mae: 0.5329, val_mae: 0.6702
+2022-04-13 07:21:19,094 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:21:19,095 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:21:19,354 - model.pytorch.supervisor - INFO - Epoch [41/50] (1890) train_mae: 0.5325, val_mae: 0.6668
+2022-04-13 07:21:24,736 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:21:24,736 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:21:24,996 - model.pytorch.supervisor - INFO - Epoch [42/50] (1935) train_mae: 0.5332, val_mae: 0.6865
+2022-04-13 07:21:30,474 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:21:30,474 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:21:30,698 - model.pytorch.supervisor - INFO - Epoch [43/50] (1980) train_mae: 0.5330, val_mae: 0.6675
+2022-04-13 07:21:35,874 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:21:35,875 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:21:36,122 - model.pytorch.supervisor - INFO - Epoch [44/50] (2025) train_mae: 0.5321, val_mae: 0.6652
+2022-04-13 07:21:36,495 - model.pytorch.supervisor - INFO - Test: mae: 0.6844, mape: 67806.2398, rmse: 0.5026
+2022-04-13 07:21:36,512 - model.pytorch.supervisor - INFO - Horizon 15mins: mae: 0.0974, mape: 67431.1578, rmse: 0.3555
+2022-04-13 07:21:36,512 - model.pytorch.supervisor - INFO - Horizon 30mins: mae: 0.1734, mape: 68132.3398, rmse: 0.4922
+2022-04-13 07:21:36,512 - model.pytorch.supervisor - INFO - Horizon 60mins: mae: 0.3078, mape: 67943.7414, rmse: 0.6615
+2022-04-13 07:21:36,513 - model.pytorch.supervisor - INFO - Epoch [44/50] (2025) train_mae: 0.5321, test_mae: 0.6844, lr: 0.000005, 5.2s, 5.4s
+2022-04-13 07:21:41,882 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:21:41,882 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:21:42,104 - model.pytorch.supervisor - INFO - Epoch [45/50] (2070) train_mae: 0.5331, val_mae: 0.7065
+2022-04-13 07:21:47,380 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:21:47,380 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:21:47,618 - model.pytorch.supervisor - INFO - Epoch [46/50] (2115) train_mae: 0.5335, val_mae: 0.6622
+2022-04-13 07:21:52,828 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:21:52,828 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:21:53,064 - model.pytorch.supervisor - INFO - Epoch [47/50] (2160) train_mae: 0.5324, val_mae: 0.6855
+2022-04-13 07:21:58,312 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:21:58,312 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:21:58,541 - model.pytorch.supervisor - INFO - Epoch [48/50] (2205) train_mae: 0.5322, val_mae: 0.6797
+2022-04-13 07:22:06,254 - model.pytorch.supervisor - INFO - epoch complete
+2022-04-13 07:22:06,255 - model.pytorch.supervisor - INFO - evaluating now!
+2022-04-13 07:22:06,482 - model.pytorch.supervisor - INFO - Epoch [49/50] (2250) train_mae: 0.5345, val_mae: 0.6954
+2022-04-13 07:22:06,914 - model.pytorch.supervisor - INFO - Test: mae: 0.7094, mape: 68850.7939, rmse: 0.5108
+2022-04-13 07:22:06,914 - model.pytorch.supervisor - INFO - Horizon 15mins: mae: 0.1103, mape: 68821.3118, rmse: 0.3619
+2022-04-13 07:22:06,914 - model.pytorch.supervisor - INFO - Horizon 30mins: mae: 0.1978, mape: 69265.8694, rmse: 0.5004
+2022-04-13 07:22:06,915 - model.pytorch.supervisor - INFO - Horizon 60mins: mae: 0.3486, mape: 68743.7765, rmse: 0.6726
+2022-04-13 07:22:06,915 - model.pytorch.supervisor - INFO - Epoch [49/50] (2250) train_mae: 0.5345, test_mae: 0.7094, lr: 0.000005, 7.7s, 7.9s

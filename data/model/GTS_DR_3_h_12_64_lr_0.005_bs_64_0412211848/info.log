@@ -1,0 +1,4 @@
+2022-04-12 21:18:48,006 - model.pytorch.supervisor - INFO - Log directory: data/model\GTS_DR_3_h_12_64_lr_0.005_bs_64_0412211848/
+2022-04-12 21:18:48,735 - model.pytorch.supervisor - INFO - Model created
+2022-04-12 21:18:48,736 - model.pytorch.supervisor - INFO - Start training ...
+2022-04-12 21:18:48,736 - model.pytorch.supervisor - INFO - num_batches:45
