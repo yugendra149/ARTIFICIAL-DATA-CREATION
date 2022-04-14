@@ -23,9 +23,8 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
-The traffic data files for Los Angeles (METR-LA) and the Bay Area (PEMS-BAY) are put into the `data/` folder. They are provided by [DCRNN](https://github.com/chnsh/DCRNN_PyTorch).
 
-Run the following commands to generate train/test/val dataset at  `data/{METR-LA,PEMS-BAY}/{train,val,test}.npz`.
+Run the following commands to generate train/test/val dataset at  `data/{METR-LA}/{train,val,test}.npz`.
 ```bash
 
 
@@ -45,14 +44,7 @@ python train.py --config_filename=data/model/para_la.yaml --temperature=0.5
 
 
 
-## Design your own model
 
-You can directly modify the model in the "model/pytorch/model.py" file.
-
-## Citation
-
-If you use this repository, e.g., the code and the datasets, in your research, please cite the following paper:
-```
 @article{shang2021discrete,
   title={Discrete Graph Structure Learning for Forecasting Multiple Time Series},
   author={Shang, Chao and Chen, Jie and Bi, Jinbo},
