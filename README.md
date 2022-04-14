@@ -12,9 +12,8 @@ Variables considered- Voltage (V), Charge Capacity (Ah), Battery Level
 
 4. The code to be executed in google colab:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SiW_YmNu6b5hyY-3vK3mXytN03BOXd5O#scrollTo=NxXLEHHUFgfU)
 
-5. Make sure to set the runtime to GPU before running the code in order to ensure faster execution.
 
-6. Make the necessary changes mentioned in the code to get the result.
+5. Make the necessary changes mentioned in the code to get the result.
 Hyperparameters can be modified in the `para_la.yaml`.
 
 
