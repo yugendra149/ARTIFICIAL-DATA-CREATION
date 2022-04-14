@@ -14,7 +14,8 @@ Variables considered- Voltage (V), Charge Capacity (Ah), Battery Level
 
 
 5. Make the necessary changes mentioned in the code to get the result.
-Hyperparameters can be modified in the `para_la.yaml`.
+
+6.Hyperparameters can be modified in the `para_la.yaml`.
 
 
 ## Acknowledgments
