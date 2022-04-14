@@ -1,6 +1,6 @@
-# Discrete Graph Structure Learning for Forecasting Multiple Time Series
+# Graph Neural Network Battery Data Generation Approach Towards Solving Limited Data Issues
 
-This is a PyTorch implementation of the paper "[Discrete Graph Structure Learning for Forecasting Multiple Time Series](https://openreview.net/pdf?id=WEHSlH5mOk)", ICLR 2021.
+Variables considered- Voltage (V), Charge Capacity (Ah), Battery Level
 
 ## Installation
 
@@ -9,9 +9,6 @@ Install the dependency using the following command:
 ```bash
 pip install -r requirements.txt
 ```
-
-
-
 
 Run the following commands to generate train/test/val dataset at  `data/{METR-LA}/{train,val,test}.npz`.
 ```bash
