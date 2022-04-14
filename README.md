@@ -36,13 +36,7 @@ python train.py --config_filename=data/model/para_la.yaml --temperature=0.5
 
 
 
-@article{shang2021discrete,
-  title={Discrete Graph Structure Learning for Forecasting Multiple Time Series},
-  author={Shang, Chao and Chen, Jie and Bi, Jinbo},
-  journal={arXiv preprint arXiv:2101.06861},
-  year={2021}
-}
-```
+
 
 ## Acknowledgments
 We appreciate the following github repos a lot for their valuable code base and datasets:
@@ -53,6 +47,5 @@ https://github.com/chaoshangcs/GTS
   author={Shang, Chao and Chen, Jie and Bi, Jinbo},
   journal={arXiv preprint arXiv:2101.06861},
   year={2021}
-}
-...
+
 
