@@ -10,7 +10,7 @@ Variables considered- Voltage (V), Charge Capacity (Ah), Battery Level
 
 3. Upload the extracted folder to google drive. Any new dataset to be used should be uploaded to this `datasets` folder.
 
-4. The code to be executed in google colab:  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1SiW_YmNu6b5hyY-3vK3mXytN03BOXd5O#scrollTo=NxXLEHHUFgfU)
+4. The code to be executed in google colab:  [![Open In Colab](https://colab.research.google.com/github/yugendra149/ARTIFICIAL-DATA-CREATION/blob/main/EXECUTION.ipynb]
 
 
 5. Make the necessary changes mentioned in the code to get the result.
