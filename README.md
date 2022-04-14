@@ -47,5 +47,5 @@ https://github.com/chaoshangcs/GTS
   author={Shang, Chao and Chen, Jie and Bi, Jinbo},
   journal={arXiv preprint arXiv:2101.06861},
   year={2021}
-
+}
 
