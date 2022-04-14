@@ -11,16 +11,6 @@ Install the dependency using the following command:
 pip install -r requirements.txt
 ```
 
-* torch
-* scipy>=0.19.0
-* numpy>=1.12.1
-* pandas>=0.19.2
-* pyyaml
-* statsmodels
-* tensorflow>=1.3.0
-* tables
-* future
-
 
 ## Data Preparation
 
