@@ -45,5 +45,10 @@ python train.py --config_filename=data/model/para_la.yaml --temperature=0.5
 ```
 
 ## Acknowledgments
+@article{shang2021discrete,
+  title={Discrete Graph Structure Learning for Forecasting Multiple Time Series},
+  author={Shang, Chao and Chen, Jie and Bi, Jinbo},
+  journal={arXiv preprint arXiv:2101.06861},
+  year={2021}
+}
 
-[DCRNN-PyTorch](https://github.com/chnsh/DCRNN_PyTorch), [GCN](https://github.com/tkipf/gcn), [NRI](https://github.com/ethanfetaya/NRI) and [LDS-GNN](https://github.com/lucfra/LDS-GNN).
